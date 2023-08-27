@@ -3,6 +3,9 @@
 	font-weight: normal;
 	box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+	height: 0;
+}
 body {
 	background-color: azure;
 	margin: 0;
@@ -48,7 +51,7 @@ body {
 	height: 2.8rem;
 	width: 100%;
 	min-width: 200px;
-	max-width: 250px;
+	max-width: 365px;
 	background-color: inherit;
 	border-radius: 8px;
 	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
@@ -72,7 +75,6 @@ body {
 .input-container input:focus {
 	border: 1px solid crimson;
 }
-
 .invite-btn {
 	border: none;
 	position: absolute;
